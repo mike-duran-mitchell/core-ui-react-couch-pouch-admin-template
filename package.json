@@ -1,0 +1,37 @@
+{
+  "name": "core-ui-react-couch-pouch-admin-template",
+  "version": "1.0.0",
+  "description": "CoreUI & Superlogin with PouchDB",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "superlogin",
+    "couchdb",
+    "pouchdb",
+    "coreui",
+    "create-react-app",
+    "react",
+    "admin"
+  ],
+  "dependencies": {
+    "cors": "^2.8.4",
+    "couch-pwd": "zemirco/couch-pwd",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "pouchdb": "^6.4.3",
+    "superlogin": "ollorin/superlogin"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jest": "^22.4.3"
+  },
+  "author": "Mike Duran-Mitchell",
+  "license": "ISC"
+}
