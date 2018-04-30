@@ -1,0 +1,5 @@
+DB_USER=MyCouchDBUsername
+DB_PASS=MyCouchDBPassword
+EMAIL_USER=GMailUsername@gmail.com
+EMAIL_PASS=GMailPassword
+REDIS_PASS=RedisPassword

@@ -9,7 +9,7 @@ const logger = require("morgan");
 const SuperLogin = require("superlogin");
 const dotenv = require("dotenv").config();
 const cors = require("cors");
-const SLConfig = require("./sl-config");
+const SLConfig = require("./config/sl-config.js");
 const port = process.env.PORT || 5000;
 const superlogin = new SuperLogin(SLConfig);
 
@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "client", "public", "index.html"));
 });
 
 // Mount SuperLogin's routes to our app
