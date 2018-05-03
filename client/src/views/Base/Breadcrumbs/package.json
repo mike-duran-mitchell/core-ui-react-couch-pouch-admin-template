@@ -1,0 +1,6 @@
+{
+  "name": "breadcrumbs",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Breadcrumbs.js"
+}
