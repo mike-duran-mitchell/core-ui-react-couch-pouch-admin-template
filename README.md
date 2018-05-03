@@ -5,10 +5,11 @@ Developed using:
 > CouchDB 2.1.1
 > redis-cli 4.0.9
 > Node 10.0.0
+> npm
 
 
 # Install
 > git clone repo
-> yarn
-> cd client/ yarn
+> npm i && cd client/ npm i
+> 
 > 
