@@ -31,7 +31,7 @@ import {
   Tooltips,
   Typography,
   Widgets
-} from "../../views";
+} from "../../components";
 import User from "./User";
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
