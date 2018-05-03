@@ -1,4 +1,4 @@
-import Full from "./Full";
+import User from "./User";
 import Admin from "./Admin";
 
-export { Full, Admin };
+export { User, Admin };

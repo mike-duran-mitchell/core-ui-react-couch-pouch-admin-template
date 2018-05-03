@@ -17,7 +17,7 @@ import {
 // sidebar nav config
 import navigation from "../../_nav";
 // routes config
-import routes from "../../routes";
+import routes from "./admin-routes";
 import AdminAside from "./AdminAside";
 import AdminFooter from "./AdminFooter";
 import AdminHeader from "./AdminHeader";

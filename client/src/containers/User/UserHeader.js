@@ -10,7 +10,7 @@ const propTypes = {
 
 const defaultProps = {};
 
-class FullHeader extends Component {
+class UserHeader extends Component {
   render() {
 
     // eslint-disable-next-line
@@ -20,7 +20,7 @@ class FullHeader extends Component {
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
         <AppNavbarBrand
-          full={{ src: process.env.PUBLIC_URL + 'assets/img/brand/logo.svg', width: 89, height: 25, alt: 'CoreUI Logo' }}
+          User={{ src: process.env.PUBLIC_URL + 'assets/img/brand/logo.svg', width: 89, height: 25, alt: 'CoreUI Logo' }}
           minimized={{ src: process.env.PUBLIC_URL + 'assets/img/brand/sygnet.svg', width: 30, height: 30, alt: 'CoreUI Logo' }}
         />
         <AppSidebarToggler className="d-md-down-none" display="lg" />
@@ -74,7 +74,7 @@ class FullHeader extends Component {
   }
 }
 
-FullHeader.propTypes = propTypes;
-FullHeader.defaultProps = defaultProps;
+UserHeader.propTypes = propTypes;
+UserHeader.defaultProps = defaultProps;
 
-export default FullHeader;
+export default UserHeader;
