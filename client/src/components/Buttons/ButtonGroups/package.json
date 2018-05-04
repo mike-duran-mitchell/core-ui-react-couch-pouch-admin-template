@@ -1,5 +1,5 @@
 {
-  "name": "ButtonGroups",
+  "name": "button-groups",
   "version": "0.0.0",
   "private": true,
   "main": "./ButtonGroups.js"

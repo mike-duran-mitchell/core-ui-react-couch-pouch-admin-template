@@ -1,5 +1,5 @@
 {
-  "name": "Charts",
+  "name": "charts",
   "version": "0.0.0",
   "private": true,
   "main": "./Charts.js"

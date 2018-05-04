@@ -11,5 +11,3 @@ Developed using:
 # Install
 + git clone repo
 + npm i && cd client/ npm i
-+ 
-+ 

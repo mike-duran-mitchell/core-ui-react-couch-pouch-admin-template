@@ -1,5 +1,5 @@
 {
-  "name": "ListGroups",
+  "name": "list-groups",
   "version": "0.0.0",
   "private": true,
   "main": "./ListGroups.js"

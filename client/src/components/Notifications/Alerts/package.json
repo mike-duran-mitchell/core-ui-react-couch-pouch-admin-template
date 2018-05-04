@@ -1,5 +1,5 @@
 {
-  "name": "Alerts",
+  "name": "alerts",
   "version": "0.0.0",
   "private": true,
   "main": "./Alerts.js"

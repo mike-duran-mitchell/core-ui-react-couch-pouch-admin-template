@@ -1,5 +1,5 @@
 {
-  "name": "Progress Bar",
+  "name": "progress-bar",
   "version": "0.0.0",
   "private": true,
   "main": "./ProgressBar.js"
