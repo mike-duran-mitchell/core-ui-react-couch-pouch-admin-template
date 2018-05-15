@@ -15,20 +15,20 @@ import {
   Switches,
   Tables,
   Tabs,
-  Tooltips
-} from "./Base";
+  Tooltips,
+  Charts,
+  Dashboard,
+  Widgets
+} from "./CoreDefaults";
 import {
   ButtonDropdowns,
   ButtonGroups,
   Buttons,
   BrandButtons
-} from "./Buttons";
-import Charts from "./Charts";
-import Dashboard from "./Dashboard";
-import { Flags, FontAwesome, SimpleLineIcons } from "./Icons";
-import { Alerts, Badges, Modals } from "./Notifications";
-import { Colors, Typography } from "./Theme";
-import Widgets from "./Widgets";
+} from "./CoreDefaults/Buttons";
+import { Flags, FontAwesome, SimpleLineIcons } from "./CoreDefaults/Icons";
+import { Alerts, Badges, Modals } from "./CoreDefaults/Notifications";
+import { Colors, Typography } from "./CoreDefaults/Theme";
 
 export {
   Badges,

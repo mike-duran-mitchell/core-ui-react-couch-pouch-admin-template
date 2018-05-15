@@ -1,7 +1,0 @@
-{
-    "name": "auth-inputs",
-    "version": "0.0.0",
-    "private": true,
-    "main": "./AuthInputs.js"
-  }
-  

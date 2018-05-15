@@ -1,15 +1,14 @@
 {
   "name": "core-ui-react-couch-pouch-admin-template",
   "version": "1.0.0",
-  "description":
-    "CoreUI (Create-React-App Admin Theme) with CouchDB + Superlogin and PouchDB on the frontend",
+  "description": "CoreUI (Create-React-App Admin Theme) with CouchDB + Superlogin and PouchDB on the frontend",
   "main": "index.js",
   "scripts": {
     "client": "cd client && npm run start",
     "server": "nodemon",
-    "dev":
-      "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "test": "jest --coverage"
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test": "jest --coverage",
+    "update": "npm install && cd client && npm install"
   },
   "keywords": [
     "superlogin",
@@ -36,12 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url":
-      "https://github.com/mike-duran-mitchell/core-ui-react-couch-pouch-admin-template.git"
+    "url": "https://github.com/mike-duran-mitchell/core-ui-react-couch-pouch-admin-template.git"
   },
   "bugs": {
-    "url":
-      "https://github.com/mike-duran-mitchell/core-ui-react-couch-pouch-admin-template/issues"
+    "url": "https://github.com/mike-duran-mitchell/core-ui-react-couch-pouch-admin-template/issues"
   },
   "author": "Mike Duran-Mitchell",
   "license": "ISC"
